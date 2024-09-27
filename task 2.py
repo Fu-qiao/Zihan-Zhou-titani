@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
 # show the title
-st.title('Titanic App by Hongyu Zhu')
+st.title('Titanic App by Zihan Zhou')
 # read csv and show the dataframe
 df = pd.read_csv('train.csv')
 st.write(df)
